@@ -1,6 +1,6 @@
 %define Product ATReferenceBrowserWidget
 %define product atreferencebrowserwidget
-%define name    zope-%{product}
+%define name    zope-%{Product}
 %define version 2.0.1
 %define release %mkrel 1
 
@@ -14,11 +14,10 @@ Release:	%{release}
 Summary:    ATReferenceBrowserWidget is an add-on to Archtetypes
 License:    GPL
 Group:      System/Servers
-URL:        http://plone.org/products/atreferencebrowserwidget/
-Source:     http://plone.org/products/atreferencebrowserwidget/releases/%{version}/%{Product}-%{version}.tar.gz
+URL:        http://plone.org/products/%{product}
+Source:     http://plone.org/products/%{product}/releases/%{version}/%{Product}-%{version}.tar.gz
 Requires:   zope >= %{zope_minver}
 Requires:   zope-Archetypes
-Obsoletes:  zope-%{Product}
 BuildArch:  noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}
 
