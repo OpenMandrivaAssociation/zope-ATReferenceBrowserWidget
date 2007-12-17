@@ -19,7 +19,6 @@ Source:     http://plone.org/products/%{product}/releases/%{version}/%{Product}-
 Requires:   zope >= %{zope_minver}
 Requires:   zope-Archetypes
 BuildArch:  noarch
-BuildRoot:  %{_tmppath}/%{name}-%{version}
 
 %description
 ATReferenceBrowserWidget is an add-on to Archtetypes. It adds a new reference
