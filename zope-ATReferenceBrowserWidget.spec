@@ -11,7 +11,7 @@
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
-Summary:    ATReferenceBrowserWidget is an add-on to Archtetypes
+Summary:    Add-on to Archtetypes
 License:    GPL
 Group:      System/Servers
 URL:        http://plone.org/products/%{product}
